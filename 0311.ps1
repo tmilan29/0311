@@ -6,5 +6,5 @@ if ($freeSpace -lt $thresholdGB) {
     Write-Output "There is less than $thresholdGB GB of free space."
 }
 else {
-    Write-Output ($freeSpace/1GB)
+    Write-Output ($freeSpace/1MB)
 }
